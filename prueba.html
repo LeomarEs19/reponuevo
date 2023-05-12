@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repositorio De prueba</title>
+    <link rel="stylesheet" href="./css/prueba.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="lol">
+        <h1 class="po float">Repositorio Trabajos</h1>
+        <h2 class="floar">Leomar Andres España Castillo</h2>
+        <p>ADSO:</p>
+    </section>
+    
+    <section class="sec-02">
+        <div class="container">
+            <h3 class="section-title">Menu Adaptable</h3>
+            <div class="content">
+                <div class="image float">
+                    <img src="./img-proyectos/adaptable.PNG" alt="">
+                </div>
+                <div class="info">
+                    <h4 class="info-title">Description</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <div>
+                            <a href="./menuadaptable.html">
+                                <button>Menu Adap</button>
+                            </a>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-03">
+        <div class="container">
+          <h3 class="section-title">Netflix</h3>
+            <div class="content">
+                <div class="info">
+                    <h4 class="info-title">Description</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <div>
+                            <a href="./Netflix.html">
+                                <button>Netflix</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="image">
+                    <img src="./img-proyectos/netflix.PNG" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec-02">
+        <div class="container">
+          <h3 class="section-title">Game Of Thrones</h3>
+          <div class="content">
+              <div class="image">
+                    <img src="./img-proyectos/Game.PNG" alt="">
+                </div>
+                <div class="info">
+                    <h4 class="info-title">Description</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <div>
+                        <a href="./Gameofthrones.html">
+                            <button>Gameofthrones</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="sec-03">
+        <div class="container">
+          <h3 class="section-title">Disney</h3>
+            <div class="content">
+                <div class="info">
+                        <h4 class="info-title">Description</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+                        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                        <div>
+                            <a href="./Disney.html">
+                                <button>Disney</button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="image">
+                        <img src="./img-proyectos/disney.PNG" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <script>
+        //common reveal options to create reveal animations
+        ScrollReveal({
+        //reset: true,
+        distance: '60px',
+        duration: 2500,
+        delay: 400
+      });
+
+      //target elements, and specify options to create reveal animations
+      ScrollReveal().reveal('.main-title, .section-title', { delay: 500, origin: 'left' });
+      ScrollReveal().reveal('.sec-01 .image, .info', { delay: 600, origin: 'bottom' });
+      ScrollReveal().reveal('.text-box', { delay: 700, origin: 'right' });
+      ScrollReveal().reveal('.media-icons i', { delay: 500, origin: 'bottom', interval: 200 });
+      ScrollReveal().reveal('.sec-02 .image, .sec-03 .image', { delay: 500, origin: 'top' });
+    </script>
+
+  </body>
+</html>
